@@ -67,11 +67,12 @@ public class Ch04 {
 	System.out.println("==구분선==");
 
 	int z = 0;
-	int z1 = 0;
 	
 	while(z<=10) {
+		int z1 = 0;
 		
-		while(z1<=z) {System.out.print("*");}
+		while(z1<=z) {System.out.print("*");z1++;}
+		System.out.println();
 		z++;
 	}
 	
